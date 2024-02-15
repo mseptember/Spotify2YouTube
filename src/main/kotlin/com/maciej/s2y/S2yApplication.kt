@@ -1,6 +1,5 @@
 package com.maciej.s2y
 
-import com.maciej.s2y.spotify.SpotifyAuthorization
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
@@ -8,5 +7,5 @@ import org.springframework.boot.runApplication
 class S2yApplication
 
 fun main(args: Array<String>) {
-	runApplication<SpotifyAuthorization>(*args)
+	runApplication<S2yApplication>(*args)
 }
