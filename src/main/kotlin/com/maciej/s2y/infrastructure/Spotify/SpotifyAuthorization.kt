@@ -9,8 +9,6 @@ import java.net.URI
 
 @Configuration
 class SpotifyAuthorization {
-    private val clientId = "9b2d15d3fde94d6fa09039711ef34b8e"
-    private val clientSecret = "924d8c36efe04cb3814b5e3b812529b6"
     private val redirectUri: URI = SpotifyHttpManager.makeUri("http://localhost:3000/auth/spotify/callback")
     private var accessToken: String = "" // TODO do something more secure than that
     private var refreshToken: String = "" // TODO do something more secure than that
